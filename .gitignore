@@ -1,0 +1,27 @@
+
+# Secrets — never upload
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local databases and SQLite sidecars
+*.db
+*.sqlite
+*.sqlite3
+*-wal
+*-shm
+
+# Generated test results
+results/*
+!results/.gitkeep
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
